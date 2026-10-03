@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Bricolage Grotesque Variable", sans-serif;
+  --color-forest: #263c32;
+  --color-muted: #687066;
+  --color-sage: #eaeade;
+}
+
+@layer base {
+  :root { font-optical-sizing: auto; font-synthesis: none; }
+  :focus-visible { outline: 3px solid var(--color-forest); outline-offset: 5px; }
+  button, summary { cursor: pointer; }
+}
+
+
